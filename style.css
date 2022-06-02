@@ -1,0 +1,51 @@
+html
+{
+    font-family:sans-serif;
+    height:100%;
+}
+body
+{
+    background-image: linear-gradient(135deg,#FFB75E, #ED8F03);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+header
+{
+    font-weight:900;
+    font-size: 3rem;
+}
+.kontener-gry
+{
+    background-color: #10456E;
+    padding:1rem;
+    width:90%;
+    display:flex;
+    gap:1rem 0.5rem;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.karta
+{
+    padding:1rem;
+    background-color: #258BD9;
+}
+button
+{
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    margin-top:1rem;
+}
+img
+{
+    content:url("images/placeholder.png");
+    width:auto;
+    height:10rem;
+}
+.rzad
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
