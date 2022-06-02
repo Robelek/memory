@@ -23,13 +23,16 @@ header
     display:flex;
     gap:1rem 0.5rem;
     flex-wrap:wrap;
-    justify-content: space-evenly;
+    justify-content:space-between;
     align-items: center;
 }
 .karta
 {
-    padding:1rem;
+    padding:0.3rem;
     background-color: #258BD9;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 button
 {
@@ -39,7 +42,6 @@ button
 }
 img
 {
-    content:url("images/placeholder.png");
     width:auto;
     height:10rem;
 }
