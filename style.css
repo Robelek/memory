@@ -21,10 +21,11 @@ header
     padding:1rem;
     width:90%;
     display:flex;
-    gap:1rem 0.5rem;
+    gap:1rem;
     flex-wrap:wrap;
     justify-content:space-between;
     align-items: center;
+    flex-direction: column;
 }
 .karta
 {
@@ -50,4 +51,5 @@ img
     display:flex;
     justify-content: center;
     align-items: center;
+    gap: 0.5rem;
 }
